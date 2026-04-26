@@ -19,19 +19,19 @@ A simple machine learning project that recommends movies based on similarity usi
 
 ---
 
+## 📸 Input
+![Input](./images/input.png)
+
+## 🎯 Output 1
+![Output1](./images/output1.png)
+
+## 🎯 Output 2
+![Output2](./images/output2.png)
+
+
 ## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
 python app.py
 
-## 📸 Output Example .
-
-## 📸 Input 
-![Input](./images/input.png)
-
-## 🎯 Output 1 
-![Output1](./images/output1.png)
-
-## 🎯 Output 2 
-![Output2](./images/output2.png)
