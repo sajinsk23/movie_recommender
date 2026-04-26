@@ -20,13 +20,13 @@ A simple machine learning project that recommends movies based on similarity usi
 ---
 
 ## 📸 Input
-![Input](./images/input.png)
+![Input](./images/New%20input.png)
 
 ## 🎯 Output 1
-![Output1](./images/output1.png)
+![Output1](./images/New%20output%201.png)
 
 ## 🎯 Output 2
-![Output2](./images/output2.png)
+![Output2](./images/New%20output%202.png)
 
 
 ## ▶️ How to Run
