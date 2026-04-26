@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommender</title>
+</head>
+<body>
+
+<h1>🎬 Movie Recommender</h1>
+
+<form method="POST">
+    <input type="text" name="movie" placeholder="Enter movie name">
+    <button type="submit">Recommend</button>
+</form>
+
+{% if recommendations %}
+    <h2>Recommended Movies:</h2>
+    <ul>
+        {% for movie in recommendations %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+</body>
+</html>
