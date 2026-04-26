@@ -25,13 +25,13 @@ A simple machine learning project that recommends movies based on similarity usi
 pip install -r requirements.txt
 python app.py
 
-## 📸 Output Example
+📸 Output Example
 
-## 📸 Input
+📸 Input
 ![Input](images/input.png)
 
-## 🎯 Output 1
+🎯 Output 1
 ![Output1](images/output1.png)
 
-## 🎯 Output 2
+🎯 Output 2
 ![Output2](images/output2.png)
