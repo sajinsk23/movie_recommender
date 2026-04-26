@@ -2,24 +2,88 @@
 <html>
 <head>
     <title>Movie Recommender</title>
+
+    <style>
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e50914;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b20710;
+        }
+
+        .results {
+            margin-top: 50px;
+        }
+
+        .movie-card {
+            background-color: #1f1f1f;
+            margin: 10px auto;
+            padding: 15px;
+            width: 300px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+            background-color: #2c2c2c;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>🎬 Movie Recommender</h1>
+    <h1>🎬 Movie Recommender</h1>
 
-<form method="POST">
-    <input type="text" name="movie" placeholder="Enter movie name">
-    <button type="submit">Recommend</button>
-</form>
+    <form method="POST">
+        <input type="text" name="movie" placeholder="Enter movie name..." required>
+        <button type="submit">Search</button>
+    </form>
 
-{% if recommendations %}
-    <h2>Recommended Movies:</h2>
-    <ul>
+    {% if recommendations %}
+    <div class="results">
+        <h2>Recommended Movies</h2>
+
         {% for movie in recommendations %}
-            <li>{{ movie }}</li>
+            <div class="movie-card">
+                {{ movie }}
+            </div>
         {% endfor %}
-    </ul>
-{% endif %}
+    </div>
+    {% endif %}
 
 </body>
 </html>
