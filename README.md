@@ -34,4 +34,4 @@ A simple machine learning project that recommends movies based on similarity usi
 ```bash
 pip install -r requirements.txt
 python app.py
-
+```bash
