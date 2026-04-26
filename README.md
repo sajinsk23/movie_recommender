@@ -28,10 +28,10 @@ python app.py
 ## 📸 Output Example
 
 ## 📸 Input
-![Input](https://raw.githubusercontent.com/sajinsk23/movie_recommender/main/images/input.png)
+![Input](images/input.png)
 
 ## 🎯 Output 1
-![Output1](https://raw.githubusercontent.com/sajinsk23/movie_recommender/main/images/output1.png)
+![Output1](images/output1.png)
 
 ## 🎯 Output 2
-![Output2](https://raw.githubusercontent.com/sajinsk23/movie_recommender/main/images/output2.png)
+![Output2](images/output2.png)
