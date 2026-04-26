@@ -27,11 +27,11 @@ python app.py
 
 ## 📸 Output Example .
 
-## 📸 Input .
-![Input](images/input.png)
+## 📸 Input 
+![Input](./images/input.png)
 
-## 🎯 Output 1 .
-![Output1](images/output1.png)
+## 🎯 Output 1 
+![Output1](./images/output1.png)
 
-## 🎯 Output 2 .
-![Output2](images/output2.png)
+## 🎯 Output 2 
+![Output2](./images/output2.png)
